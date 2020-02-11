@@ -1,6 +1,4 @@
-<?php
-include 'resources/head.php';
-?>
+
 <html>
     <head>
 	  <title>Controle de Produtos</title>
