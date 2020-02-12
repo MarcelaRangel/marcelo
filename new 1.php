@@ -1,13 +1,9 @@
 
-<?php
-session_start();
-?>
-
 <html>
     <head>
 	  <title>Controle de Produtos</title>
       <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 	  <link rel="stylesheet" href="css/materialize" />
@@ -18,7 +14,6 @@ session_start();
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
 <body>
-<div  align="center"class="container">
  <div class="container"> 
   <div class="col s5">
 	<nav class="black">
@@ -28,17 +23,15 @@ session_start();
 	</nav>
   </div>
 </div>
-    <div class="container"> 
-
-
-	<div   class="row " >
+   <div align="center" class="container">
+	<div   class="row" >
 		<br>
 	
-		<div class="col s2 center"" >
+		<div class="col s2 center" >
 		<a href="addprodt.php" <i class="btn-floating btn-large waves-effect waves-light cian"> <i class="material-icons">add</i> </a> 
 		<h6>Cadastrar<br>Prodruto</h6>
 		</div>
-		<div href="estoque.php" class="col s8 center">
+		<div href="estoque.php" class="col s2 center">
 		<a class="btn-floating btn-large waves-effect waves-light cian"><i class="material-icons">find_in_page</i></a>
 		<h6>Estoque</h6>
 		</div>
@@ -46,31 +39,22 @@ session_start();
 		<a class="btn-floating btn-large waves-effect waves-light cian"><i class="material-icons">add_shopping_cart</i></a>
 		<h6>Nova Venda</h6>
 		</div>
+
+	
+  </div>
 </div>
-	 </div>
   
-   <div class="container"> 
-  
+
+ <div class="container"> 
+  <div class="col s10">
 		<div class="col s5 black">
 			<div class="container">
-			
-			<h6 class = "noselect white-text center-align">© Marcela Rangel Todos os Direitos Reservados.</h6>
+			<h5 class = "noselect white-text center-align">Â© Marcela Rangel Todos os Direitos Reservados.</h5>
 			</div>
 		</div>
   </div>
- 
-
-  
-
- 
- 
  </div>
 		<!-- declaraÃ§Ã£o do javascript -->
       <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
-
   </html>
-
-  </html>
-
-
